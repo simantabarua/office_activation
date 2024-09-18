@@ -1,5 +1,4 @@
-# office_activation
-
+```sh
 @echo off
 echo Starting Microsoft Office activation process...
 (if exist "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")
@@ -43,3 +42,5 @@ goto halt
 :halt
 pause >nul
 exit
+
+```
